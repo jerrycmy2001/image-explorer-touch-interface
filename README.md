@@ -9,20 +9,27 @@ Set up the [React Native environment](https://reactnative.dev/docs/environment-s
 
 ### Installation
 1. Clone the repo
-```
-git clone https://github.com/jerrycmy2001/image-explorer-touch-interface
-cd image-explorer-touch-interface
-```
+    ```
+    git clone https://github.com/jerrycmy2001/image-explorer-touch-interface
+    cd image-explorer-touch-interface
+    ```
 
 2. Install dependencies
-```
-npm install
-```
+    ```
+    npm install
+    ```
 
 3. Start the app
-```
-npm start
-```
+
+    ```
+    npm start
+    ```
+    If your app does not start due to Internect connection, you could try
+    ```
+    npm install @expo/ngrok@4.1.0
+    expo start --tunnel
+    ```
+
 
 ## Features
 The app supports the following features:
